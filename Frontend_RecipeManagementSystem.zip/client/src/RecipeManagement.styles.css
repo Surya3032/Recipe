@@ -1,0 +1,39 @@
+﻿/* RecipeManagement.styles.css */
+
+.recipe-management-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    .recipe-management-container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.recipe-form {
+    margin-bottom: 20px;
+}
+
+.recipe-list-group {
+    margin-top: 20px;
+}
+
+.recipe-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .recipe-list-item a {
+        text-decoration: none;
+        color: #007bff; /* Bootstrap primary color */
+    }
+
+        .recipe-list-item a:hover {
+            text-decoration: underline;
+        }
+
+    .recipe-list-item button {
+        margin-left: 10px;
+    }
